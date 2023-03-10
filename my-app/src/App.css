@@ -1,11 +1,31 @@
+body{
+  background-image:linear-gradient(to bottom, #0a192f, #091c38);
+  background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+}
+:root{
+  --main-text:#8892b0 ;
+  --theme-color: #0a254e;
+  --highlights: #50ccb4;
+  --bold-text: #bec8e7;
+  --main-font: 'Calibre, "San Francisco", "SF Pro Text"';
+}
+
 .App {
   text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

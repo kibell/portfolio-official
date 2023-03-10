@@ -1,0 +1,90 @@
+:root{
+    --main-text:#8892b0 ;
+    --theme-color: #0a254e;
+    --highlights: #50ccb4;
+    --bold-text: #bec8e7;
+    --main-font: 'Calibre, "San Francisco", "SF Pro Text"';
+}
+
+.name{
+    color: #bec8e7;
+    font-family: var(--main-font);
+    font-size: 4rem;
+}
+
+.beginning{
+    height: 100vh;
+  
+}
+
+.gt{
+    
+    margin-top: 10rem;
+}
+
+.como{
+    font-size: 20px;
+}
+
+.beginning h3{
+    color: var(--main-text );
+    font-size: 5rem;
+    font-family: var(--main-font);
+}
+
+.beginning h5{
+    color: var(--main-text );
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-family: var(--main-font);
+
+}
+
+.type{
+   
+    color: #50ccb4;
+  
+}
+
+
+.theme-btn{
+    /* background-color: rgba(240, 248, 255, 0.701); */
+  background-color: var(--theme-color);
+    border: solid var(--highlights) 2px;
+    width: 150px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 20%;
+    color: var(--theme-color);
+    
+}
+
+.theme-btn:hover{
+    background-color: var(--highlights);
+    /* color: var(--theme-color); */
+    
+    }
+
+
+    .ArrowDown{
+        
+        display: flex;
+        justify-content: center;
+        color: #8892b0;
+        padding: 0;
+        margin: auto;
+        font-size: 50px;
+    
+    }
+
+    .ArrowDown:hover{
+       
+        display: flex;
+        justify-content: center;
+        color: var(--highlights);
+        padding: 0;
+        margin: auto;
+        font-size: 80px;
+    
+    }
+
