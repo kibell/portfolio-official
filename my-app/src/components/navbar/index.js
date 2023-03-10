@@ -6,7 +6,6 @@ class NavBar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg" id="top">
-        <img src={Logo} alt="" />
         <button
           className="navbar-toggler"
           type="button"
@@ -26,7 +25,7 @@ class NavBar extends Component {
           <ul className="navbar-nav">
             <li className="nav-item active d1">
               <a className="nav-link " href="#aboutSec">
-                <span className="highlight mr">1</span>About Me{" "}
+                <span className="highlight mr">01</span>About Me{" "}
               </a>
             </li>
 

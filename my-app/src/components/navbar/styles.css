@@ -1,17 +1,9 @@
-:root{
-    --main-text:#8892b0 ;
-    --theme-color: #0a254e;
-    --highlights: #50ccb4;
-    --bold-text: #bec8e7;
-    --main-font: 'Calibre, "San Francisco", "SF Pro Text"';
-}
 
 .nav-item{
     letter-spacing: 4px;
-    font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     margin: 10px;
-    font-family: #8892b0; 
+    font-family: 'Montserrat, "Montserrat", "SF Pro Text"' #8892b0; 
 }
 
 .navbar-toggler:hover{
