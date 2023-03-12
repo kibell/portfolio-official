@@ -46,6 +46,13 @@ class Landing extends Component {
                 View Projects{" "}
               </a>{" "}
             </button>
+
+            <button className="theme-btn ml-3">
+              {" "}
+              <a href="mailto:kitrickd.bell@gmail.com? subject= subject text"  target="_blank">
+                Email Me{" "}
+              </a>{" "}
+            </button>
           </div>
         </div>
 
