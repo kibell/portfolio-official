@@ -26,6 +26,13 @@ p{
   }
 }
 
+@media only screen and (max-width: 948px)  {
+    .mypic{ 
+        display: none;
+       
+  }
+}
+
 .about{
     height: 100vh;
     
