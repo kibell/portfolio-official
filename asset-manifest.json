@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-official/static/css/main.641bb6d1.css",
-    "main.js": "/portfolio-official/static/js/main.a2f56c3e.js",
+    "main.css": "/portfolio-official/static/css/main.38f48ef4.css",
+    "main.js": "/portfolio-official/static/js/main.62872e46.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio-official/static/js/787.28cb0dcd.chunk.js",
     "static/media/emp.gif": "/portfolio-official/static/media/emp.403bcf3d68c48b4a8c21.gif",
     "static/media/kb.png": "/portfolio-official/static/media/kb.ec272ed1dd1727cf9d9f.png",
@@ -13,12 +13,12 @@
     "static/media/logix-logo.png": "/portfolio-official/static/media/logix-logo.588e9998457711a8b1a9.png",
     "static/media/umhb.jpg": "/portfolio-official/static/media/umhb.0b6c182a00988f55900a.jpg",
     "index.html": "/portfolio-official/index.html",
-    "main.641bb6d1.css.map": "/portfolio-official/static/css/main.641bb6d1.css.map",
-    "main.a2f56c3e.js.map": "/portfolio-official/static/js/main.a2f56c3e.js.map",
+    "main.38f48ef4.css.map": "/portfolio-official/static/css/main.38f48ef4.css.map",
+    "main.62872e46.js.map": "/portfolio-official/static/js/main.62872e46.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio-official/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.641bb6d1.css",
-    "static/js/main.a2f56c3e.js"
+    "static/css/main.38f48ef4.css",
+    "static/js/main.62872e46.js"
   ]
 }
