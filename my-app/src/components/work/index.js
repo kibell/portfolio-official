@@ -10,11 +10,11 @@ class Work extends Component {
   
   render() {
     return (
-      <div class="container">
-       <h1 class="mtc">
+      <div class="container" id="workSec">
+       <h1 class="mtc text-right">
               <span class="highlight">02</span> Work Experience
             </h1>
-            <hr class="hrt" />
+            <hr class="hrt mb-5" />
       <div class="row">
           <div class="col-md-12">
               <div class="main-timeline3">
@@ -41,8 +41,8 @@ class Work extends Component {
                   <div class="timeline">
                       <div class="timeline-content">
                           <span class="year">2017-2018</span>
-                          <h3>Logix Diagnostics</h3>
-                          <h4 class="title">Lab Technician</h4>
+                          <h3>Lab Technician</h3>
+                          <h4 class="title">Logix Diagnostics </h4>
                           <p class="description">
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
                           </p>
@@ -52,6 +52,7 @@ class Work extends Component {
           </div>
       </div>
   </div>
+
     );
   }
 }

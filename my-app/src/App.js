@@ -6,6 +6,8 @@ import About from './components/about';
 import Work from './components/work';
 import Education from './components/education';
 import Footer from './components/Footer';
+import Skill from './components/skills'
+import Blog from './components/blog'
 import {ThemeProvider} from "styled-components";
 import { GlobalStyles } from "./components/Theme/globalStyles";
 import { lightTheme, darkTheme } from "./components/Theme/theme"
@@ -34,7 +36,9 @@ function App() {
    <Landing/>
    <About/>
    <Work/>
+   <Skill/>
    <Education/>
+    <Blog/>
    
    </div>
    <Footer/>
