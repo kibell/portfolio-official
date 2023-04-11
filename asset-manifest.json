@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-official/static/css/main.6dc391f0.css",
+    "main.css": "/portfolio-official/static/css/main.26b42738.css",
     "main.js": "/portfolio-official/static/js/main.ab2a14a8.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio-official/static/js/787.28cb0dcd.chunk.js",
     "static/media/Trivia.gif": "/portfolio-official/static/media/Trivia.521fa8878dd19ce90a86.gif",
@@ -23,12 +23,12 @@
     "static/media/logix-logo.png": "/portfolio-official/static/media/logix-logo.588e9998457711a8b1a9.png",
     "static/media/umhb.jpg": "/portfolio-official/static/media/umhb.0b6c182a00988f55900a.jpg",
     "index.html": "/portfolio-official/index.html",
-    "main.6dc391f0.css.map": "/portfolio-official/static/css/main.6dc391f0.css.map",
+    "main.26b42738.css.map": "/portfolio-official/static/css/main.26b42738.css.map",
     "main.ab2a14a8.js.map": "/portfolio-official/static/js/main.ab2a14a8.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio-official/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dc391f0.css",
+    "static/css/main.26b42738.css",
     "static/js/main.ab2a14a8.js"
   ]
 }
