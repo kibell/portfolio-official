@@ -1,73 +1,25 @@
-.progress {
-  position: relative;
-height: 25px;
-}
-.progress > .progress-type {
-position: absolute;
-left: 0px;
-font-weight: 800;
-padding: 3px 30px 2px 10px;
-color: rgb(255, 255, 255);
-background-color: rgba(25, 25, 25, 0.2);
-}
-.progress > .progress-completed {
-position: absolute;
-right: 0px;
-font-weight: 800;
-padding: 3px 10px 2px;
-}
-
-.progress-bar-html{
-  width: 95%;
-  background-color:#3b5998;;
-}
-
-.progress-bar-css{
-  width: 90%;
-  background-color:#3b5998;;
-}
-
-.progress-bar-js{
-  width: 85%;
-  background-color: #3b5998;
-}
-
-.progress-bar-react{
-  width: 60%;
-  background-color:#3b5998;;
-}
-
-.progress-bar-asp{
-  width: 40%;
-  background-color:#3b5998;;
-}
-
-.progress-bar-git{
-  width: 80%;
-  background-color:#3b5998;;
-}
-
-.progress-bar-sql{
-  width: 75%;
-  background-color: #3b5998;;
-}
-
-.progress-bar-python{
-  width: 50%;
-  background-color: #3b5998;
-}
-
-.progress-bar-adobe{
-  width: 50%;
-  background-color: #3b5998;;
-}
-
-.progress-bar-wp{
-  width: 80%;
-  background-color: #3b5998;
+.icon:hover {
+color: #F2C84B;
 }
 
 #skillSec {
-  margin-bottom: 25vh;
   margin-top: 5rem;
+  
 }
+
+.font-rem-5 {
+font-size:  5rem;
+}
+
+.skillName {
+  color: #fff;
+  font-family: 'Poller One', cursive;
+  font-size: 4rem;
+  
+}
+
+.skillCube {
+    top: -23rem !important;
+  
+}
+

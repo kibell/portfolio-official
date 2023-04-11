@@ -10,17 +10,25 @@
 }
 
 .iconP{
-    font-size: 30px;
+    font-size: 2.5rem;
+    color: black;
   
 }
 
+img.fallimg {
+    width: 150px;
+    position: fixed;
+    top: 4rem;
+}
+
 .icons{
-    font-size: 30px;
+    font-size: 2.5rem;
+    color: black;
   
 }
 
 .icons:hover, .iconP:hover{
-    color:#50ccb4
+    color:#7B92F9
 
 }
 a {
@@ -30,8 +38,8 @@ a {
 
 .sideBar{
     width: 40px;
-    position: fixed;
-    bottom: 0px;
+    position: absolute;
+    bottom: 42vh;
     left: 40px;
     right: auto;
     z-index: 10;
@@ -49,6 +57,9 @@ a {
     padding: 0px;
     margin: 0px;
     list-style: none;  
+    top: 27rem;
+    position: fixed;
+    gap: 1.5rem
 }
 
 @media only screen and (max-width: 1328px)  {

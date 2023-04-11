@@ -1,19 +1,25 @@
 .mtc {
-  color: var(--bold-text);
+  color: black;
 }
 
 .hrt {
-  border-top: 2px solid var(--main-text);
+  border-top: 2px solid black;
 }
 
-.about h2 {
-  color: var(--bold-text);
-  font-family: var(--main-font);
+.aboutHeader{
+ 
+  font-family: 'Poller One', cursive;
+  color: #fff;
+  font-size: 5rem;
+}
+
+.mypic {
+  width: 29rem !important;
+  left: 79px;
 }
 
 p {
-  font-family: var(--main-font);
-  color: var(--main-text);
+  color: #fff;
   font-size: 20px;
 }
 
@@ -21,6 +27,10 @@ p {
   .about {
     margin-top: 200px;
   }
+
+  .mypic {
+    left: 0;
+  }
 }
 
 @media only screen and (max-width: 1328px) {
@@ -29,11 +39,8 @@ p {
   }
 }
 
-.about {
-  height: 100vh;
-  margin-top: 9.5rem;
-}
 
-#aboutSec {
-  height: 30vh;
+
+.ml-20 {
+  margin-left: 12rem;
 }

@@ -9,7 +9,7 @@
     position: relative;
     margin-bottom: 50px;
     height: 180px;
-    right:-100px;
+    /* right:-100px; */
 }
 
 .timeline>li:nth-child(odd) {
@@ -120,14 +120,14 @@
     position: absolute;
     top: 60px;
     bottom: 0;
-    left: 690px;
+    left: 54rem;
     width: 4px;
     height:340px;
-    background-color: #3b5998;
-    -ms-transform: rotate(-44deg); /* IE 9 */
-    -webkit-transform: rotate(-44deg); /* Safari */
-    transform: rotate(-44deg);
-    box-shadow: 0 0 5px #4582ec;
+    background-color: #63F27D;
+    -ms-transform: rotate(-27deg); /* IE 9 */
+    -webkit-transform: rotate(-27deg); /* Safari */
+    transform: rotate(-27deg);
+    box-shadow: 0 0 5px #F23F60;
 }
 /*Style for odd div.line*/
 .timeline>li:nth-child(even) .line:before  {
@@ -249,7 +249,7 @@
   }
   .timeline > li:nth-child(odd) .timeline-panel {
     width: 100%;
-    padding: 0 14px 20px 0px;
+    padding: 0 14px 20px 0px; 
   }
   .timeline > li .line {
     display: none;
@@ -258,4 +258,36 @@
 .img-switch{
     width: 200px;
     border-radius: 50%;
+    background-color: #fff;
+}
+
+.grad {
+  width: 200px;
+}
+
+.eduSec {
+ height: 40rem;
+ font-family: 'Brawler', serif;
+
+}
+
+.edu-header {
+  font-family: 'Poller One', cursive;
+  color: #fff;
+  font-size: 3.8rem;
+}
+
+.text-black {
+
+  color: black !important 
+}
+
+@media only screen and (max-width: 1328px) {
+  .edu-header {
+    font-size: 2.8rem;
+  }
+
+  .grad {
+    display: none;
+  }
 }

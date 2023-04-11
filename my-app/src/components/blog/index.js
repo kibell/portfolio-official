@@ -8,16 +8,15 @@ import "../../utilities.css";
 class Blog extends Component {
   render() {
     return (
-      <section className="blog" id="blog">
+      <section className="blog mb-5 mt-5" id="blog">
+        <div className="container theme-border p-5">
         <div className="row" id="blogSec"></div>
 
         <div className="row">
-          <div className="col-lg-7 col-md-12 col-sm-12 animate__animated animate__bounceInLeft animate__slower">
-            <h1 className="mtc">
-              <span className="highlight mr">06</span>Blogs
+          <div className="col-lg-6 col-md-6  animate__animated animate__bounceInLeft animate__slower">
+            <h1 className="mtc blogHead">Blogs
             </h1>
 
-            <hr className="hrt mb-5" />
 
             <p>
               Check out my recent blogs{" "}
@@ -31,20 +30,20 @@ class Blog extends Component {
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
 
-            <button className="theme-btn">
               {" "}
               <a
                 href="https://bellsproutdesigns.com/blog/"
                 rel="noreferrer"
                 target="_blank"
+                className="theme-btn"
               >
                 Read Blogs{" "}
               </a>{" "}
-            </button>
           </div>
 
           {/* <img className="mypic col-lg-5 col-md-12 col-sm-4 animate__animated animate__bounceInRight animate__slower" src={KBimg}  alt=""/> */}
-          <Lottie animationData={KBimg} loop={true} />
+          <Lottie animationData={KBimg} loop={true} className="blogBear" />
+        </div>
         </div>
       </section>
     );

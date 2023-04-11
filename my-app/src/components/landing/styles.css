@@ -1,83 +1,107 @@
 :root {
-  --main-text: #8892b0;
-  --theme-color: #0a254e;
+  --main-text: #fff;
+  --theme-color: black;
   --highlights: #50ccb4;
-  --bold-text: #bec8e7;
+  --bold-text: #fff;
   --main-font: 'Calibre, "San Francisco", "SF Pro Text"';
 }
 
 .name {
-  color: #bec8e7;
-  font-family: var(--main-font);
-  font-size: 4rem;
+  color: #fff;
+ font-family: 'Poller One', cursive;
+  font-size: 5rem;
+}
+
+.cube{
+  top: -8rem !important;
+}
+/* .name::after {
+  content: "";
+  background-color: #F23F60;
+  border-color: #F23F60;
+  border-style: solid;
+  height: 5px;
+  display: inline-flex;
+  position: absolute;
+  top: 32px;
+  width: 40rem;
+  margin-left: 2rem;
+} */
+
+ .center-row {
+  margin-top: 10rem !important;
+ }
+
+.p-max-40-rem{
+  max-width: 30rem;
 }
 
 .beginning {
-  height: 62vh;
-}
-
-.gt {
-  margin-top: 10rem;
+  min-height: 100vh;
 }
 
 .como {
   font-size: 20px;
 }
 
-.beginning h3 {
-  color: var(--main-text);
-  font-size: 5rem;
-  font-family: var(--main-font);
-}
-
-.beginning h5 {
-  color: var(--main-text);
-  letter-spacing: 3px;
-  font-size: 20px;
-  font-family: var(--main-font);
-}
-
-.type {
-  color: #50ccb4;
-}
 
 .theme-btn {
   /* background-color: rgba(240, 248, 255, 0.701); */
-  background-color: var(--theme-color);
-  border: solid var(--highlights) 2px;
+  background-color: #7B92F9;
+  border: solid #7B92F9 14px;
   width: 150px;
-  height: 50px;
   margin-top: 15px;
-  color: var(--theme-color);
+  color: black;
+  text-decoration: none;
+  
 }
+
+.email-btn {
+  position: relative;
+    top: 36rem;
+    left: 16rem;
+    z-index: 1;
+
+}
+
+.project-btn {
+  position: relative;
+  top: 6.2rem;
+  left: 12rem;
+}
+
 
 .theme-btn:hover {
-  background-color: var(--highlights);
-  color: #0a254e;
+  background-color: #63F27D;
+  border: solid #63F27D 14px;
+  text-decoration: none;
+  color: black;
 }
 
-.ArrowDown {
-  display: flex;
-  justify-content: center;
-  color: #8892b0;
-  padding: 0;
-  margin: auto;
-  font-size: 50px;
+.blue-hl {
+  color: #7B92F9;
 }
 
-.ArrowDown:hover {
-  display: flex;
-  justify-content: center;
-  color: var(--highlights);
-  padding: 0;
-  margin: auto;
-}
+@media screen and (max-width: 480px) {
+  .name::after {
+    display: none;
+  }
 
-.intro-section {
-  margin-bottom: 15vh;
-  max-width: 80%;
-}
+  .beginning {
+    margin: 0
+  }
 
-.lottieAni{
-  width: 250px
+  .email-btn, .lottie {
+    display: none;
+  }
+
+  body {
+    background: black !important;
+  }
+
+  .project-btn {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
 }

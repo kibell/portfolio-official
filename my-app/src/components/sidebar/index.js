@@ -10,6 +10,7 @@ import OverlayTrigger from "react-bootstrap/Overlay";
 import Tooltip from "react-bootstrap/Tooltip";
 import $ from "jquery";
 import { MDBTooltip } from "mdb-react-ui-kit";
+import Fall from "../../images/fall.png"
 
 class Sidebar extends Component {
   render() {

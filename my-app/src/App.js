@@ -7,6 +7,7 @@ import Work from './components/work';
 import Education from './components/education';
 import Footer from './components/Footer';
 import Skill from './components/skills'
+import Projects from './components/projects';
 import Blog from './components/blog'
 import {ThemeProvider} from "styled-components";
 import { GlobalStyles } from "./components/Theme/globalStyles";
@@ -29,19 +30,19 @@ function App() {
       <>
       <GlobalStyles/>
      
+   {/* <Toggle className="float-right" theme={theme} toggleTheme={themeToggler} /> */}
    <NavBar/>
-   <Sidebar/>
-   <Toggle className="float-right" theme={theme} toggleTheme={themeToggler} />
-   <div className='container'>
+    <Sidebar/>
+  
    <Landing/>
-   <About/>
-   <Work/>
-   <Skill/>
-   <Education/>
-    <Blog/>
+    <About/>
+     <Work/>
+    <Skill/>
+    <Projects/>  
+     <Education/>
+    <Blog />
    
-   </div>
-   <Footer/>
+   <Footer/> 
    </>
     </ThemeProvider>
    </Fragment>

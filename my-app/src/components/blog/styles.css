@@ -1,39 +1,15 @@
-.mtc {
-  color: var(--bold-text);
-}
 
-.hrt {
-  border-top: 2px solid var(--main-text);
-}
 
-.about h2 {
-  color: var(--bold-text);
-  font-family: var(--main-font);
-}
-
-p {
-  font-family: var(--main-font);
-  color: var(--main-text);
-  font-size: 20px;
-}
-
-@media only screen and (max-width: 1328px) {
-  .about {
-    margin-top: 200px;
-  }
-}
-
-@media only screen and (max-width: 1328px) {
-  .about {
-    margin-top: 200px;
-  }
-}
-
-.about {
-  height: 100vh;
-  margin-top: 9.5rem;
+.blogHead {
+  font-family: 'Poller One', cursive;
+  color: #fff;
+  font-size: 5rem;
 }
 
 #blogSec {
   height: 7vh;
+}
+
+.blogBear {
+  width: 320px !important;
 }
