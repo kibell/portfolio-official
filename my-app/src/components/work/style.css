@@ -14,6 +14,11 @@
   box-shadow: 14px 10px 45px black;
 }
 
+.workSec li {
+  color: #fff;
+  margin-bottom: .5rem;
+}
+
 @media screen and (max-width: 480px) {
   .wrkName {
     font-size: 2rem;

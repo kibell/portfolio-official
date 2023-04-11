@@ -13,10 +13,10 @@ class Work extends Component {
           <h1 class="text-center  wrkName">
             Work <span className="blue-hl">Experience</span>
           </h1>
-         <hr />
+          <hr />
           <div class="row m-0">
             <div class="col-md-6">
-              <div>
+              <div className="text-white">
                 <div class="timeline-content">
                   <span class="year">2021 - Present</span>
                   <h3>Front-End Developer</h3>
@@ -27,19 +27,28 @@ class Work extends Component {
             <div className="col-md-5">
               <ul>
                 <li>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer malesuada tellus lorem, et condimentum neque commodo
-                  quis.
+                  Designs and develops a new responsive, mobile-first website
+                  using CSS, HTML, and JavaScript to increase user experience.
+                </li>
+                <li>
+                  Collaborates with back-end developers to implement new pages
+                  for the company platform using Model, View, and Controller,
+                  which improved the user experience and increased conversion.
+                </li>
+                <li>
+                  Develops user interface components and implements the UI with
+                  robust React components, resulting in faster loading time and
+                  improved user experience.
                 </li>
               </ul>
             </div>
 
-            <div className="row mt-5">
+            <div className="row mt-5 m-0">
               <div class="col-md-6">
                 <div>
                   <div class="timeline-content">
-                    <span class="year">2021 - Present</span>
-                    <h3>Front-End Developer</h3>
+                    <span class="year">2017 - 2021</span>
+                    <h3>Business Systems Analyst</h3>
                     <h4 class="title">Empyrean Benefits Solutions</h4>
                   </div>
                 </div>
@@ -47,34 +56,27 @@ class Work extends Component {
               <div className="col-md-5">
                 <ul>
                   <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer malesuada tellus lorem, et condimentum neque commodo
-                    quis.
+                    Responsible for the system configuration and setup for
+                    clients which includes setup, test plan execution, import
+                    configuration, and client acceptance testing
+                  </li>
+                  <li>
+                    Client-facing and consultative role offering solutions to
+                    enhance client implementations and transform client workflow
+                    and business processes. Facilitates internal communications
+                    by serving as the liaison between the services organization
+                    and product development, product management, and technical
+                    team.
+                  </li>
+                  <li>
+                    Wrote over 300 SQL queries to analyze and report on database
+                    data for client deliverables, Identified discrepancies that
+                    would have an impact on client cost by using SQL.
                   </li>
                 </ul>
               </div>
             </div>
 
-            <div className="row mt-5">
-              <div class="col-md-6">
-                <div>
-                  <div class="timeline-content">
-                    <span class="year">2021 - Present</span>
-                    <h3>Front-End Developer</h3>
-                    <h4 class="title">Empyrean Benefits Solutions</h4>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-5">
-                <ul>
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer malesuada tellus lorem, et condimentum neque commodo
-                    quis.
-                  </li>
-                </ul>
-              </div>
-            </div>
           </div>
         </div>
       </section>
