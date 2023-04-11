@@ -1,6 +1,9 @@
 .icon:hover {
 color: #F2C84B;
 }
+.icon {
+  color: #fff
+}
 
 #skillSec {
   margin-top: 5rem;
@@ -10,6 +13,7 @@ color: #F2C84B;
 .font-rem-5 {
 font-size:  5rem;
 }
+
 
 .skillName {
   color: #fff;
