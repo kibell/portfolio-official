@@ -1,24 +1,34 @@
 {
   "files": {
-    "main.css": "/portfolio-official/static/css/main.38f48ef4.css",
-    "main.js": "/portfolio-official/static/js/main.d0fb86be.js",
+    "main.css": "/portfolio-official/static/css/main.f917852d.css",
+    "main.js": "/portfolio-official/static/js/main.dc1a8145.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio-official/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Trivia.gif": "/portfolio-official/static/media/Trivia.521fa8878dd19ce90a86.gif",
+    "static/media/nc.gif": "/portfolio-official/static/media/nc.5165bf202636aeb27e50.gif",
+    "static/media/Bell.gif": "/portfolio-official/static/media/Bell.c605ed05b306db0e205e.gif",
+    "static/media/React App.gif": "/portfolio-official/static/media/React App.6ff42c65f064d996cbc6.gif",
+    "static/media/organized spaces.gif": "/portfolio-official/static/media/organized spaces.759ebe7cfae1acc7e797.gif",
+    "static/media/ctrack.gif": "/portfolio-official/static/media/ctrack.27e5d34205cf50cc2614.gif",
+    "static/media/giphy API.gif": "/portfolio-official/static/media/giphy API.18d2017b65d51307ecbf.gif",
+    "static/media/letsme.gif": "/portfolio-official/static/media/letsme.40339d63789867b464c1.gif",
+    "static/media/fall.png": "/portfolio-official/static/media/fall.93e9741f9695fa0caf49.png",
+    "static/media/graduation.png": "/portfolio-official/static/media/graduation.f23c24bccd2595cc0ae7.png",
     "static/media/emp.gif": "/portfolio-official/static/media/emp.403bcf3d68c48b4a8c21.gif",
-    "static/media/kb.png": "/portfolio-official/static/media/kb.ec272ed1dd1727cf9d9f.png",
+    "static/media/champ.png": "/portfolio-official/static/media/champ.1f85ea36c0a1a71119ac.png",
+    "static/media/hey.png": "/portfolio-official/static/media/hey.090c1b327b67211195a5.png",
     "static/media/bootcamp.png": "/portfolio-official/static/media/bootcamp.3242c874d0672e0291c6.png",
     "static/media/logogif.gif": "/portfolio-official/static/media/logogif.081ee9593f1154e03955.gif",
     "static/media/Capco.jpg": "/portfolio-official/static/media/Capco.148b6180ec7ae2c41bd9.jpg",
     "static/media/KBell.pdf": "/portfolio-official/static/media/KBell.c42a896de531e81e40c3.pdf",
-    "static/media/klogo.png": "/portfolio-official/static/media/klogo.9120e701e1bd37131777.png",
     "static/media/logix-logo.png": "/portfolio-official/static/media/logix-logo.588e9998457711a8b1a9.png",
     "static/media/umhb.jpg": "/portfolio-official/static/media/umhb.0b6c182a00988f55900a.jpg",
     "index.html": "/portfolio-official/index.html",
-    "main.38f48ef4.css.map": "/portfolio-official/static/css/main.38f48ef4.css.map",
-    "main.d0fb86be.js.map": "/portfolio-official/static/js/main.d0fb86be.js.map",
+    "main.f917852d.css.map": "/portfolio-official/static/css/main.f917852d.css.map",
+    "main.dc1a8145.js.map": "/portfolio-official/static/js/main.dc1a8145.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio-official/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38f48ef4.css",
-    "static/js/main.d0fb86be.js"
+    "static/css/main.f917852d.css",
+    "static/js/main.dc1a8145.js"
   ]
 }
