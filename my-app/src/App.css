@@ -54,3 +54,19 @@ html {
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (min-width: 1328px)  {
+  .sun-style {
+    display: none;
+  }
+
+  /* body {
+    background: linear-gradient(to right, black 0, black 50%, #F2C84B 50%, #F2C84B 100%) !important;
+  } */
+}
+
+@media (min-width: 1400px) {
+.container {
+    max-width: 1140px !important;
+}
+}

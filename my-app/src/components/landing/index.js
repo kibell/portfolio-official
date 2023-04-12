@@ -12,7 +12,8 @@ class Landing extends Component {
     return (
       <section className="beginning" id="beginning">
         <div className="container">
-          <div className="row mr-0 center-row">
+          <div className="row center-row">
+            {/* <div className="col-md-1"></div> */}
             <div className="col-md-6">
               <div>
                 <h1 className="name">
@@ -58,17 +59,17 @@ class Landing extends Component {
                 >
                  <strong>View Projects</strong> {" "}
                 </a>{" "}
-                
-              </div>
-            </div>
-              <div className="col-md-6 cube">
-              <a
+                <a
                   href="mailto:kitrickd.bell@gmail.com? subject= subject text"
                   className="theme-btn animate__animated animate__flipInX animate__slower ml-3 email-btn"
                   target="_blank"
                 >
                   <strong>Email me</strong>{" "}
                 </a>{" "}
+              </div>
+            </div>
+              <div className="col-md-5 cube">
+              
             <Lottie animationData={animate} loop={true} className="lottie" />
             
             </div>

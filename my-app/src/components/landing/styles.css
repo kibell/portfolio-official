@@ -56,19 +56,12 @@
   
 }
 
-.email-btn {
-  position: relative;
-    top: 36rem;
-    left: 16rem;
-    z-index: 1;
 
-}
-
-.project-btn {
+/* .project-btn {
   position: relative;
   top: 6.2rem;
   left: 12rem;
-}
+} */
 
 
 .theme-btn:hover {
