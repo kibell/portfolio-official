@@ -1,15 +1,8 @@
-.mtc {
-  color: black;
-}
-
-.hrt {
-  border-top: 2px solid black;
-}
 
 .aboutHeader{
  
-  font-family: 'Poller One', cursive;
-  color: #fff;
+  font-family: var(--header-font);
+  color: var(--white-text);
   font-size: 5rem;
 }
 
@@ -19,7 +12,7 @@
 }
 
 p {
-  color: #fff;
+  color: var(--white-text);
   font-size: 20px;
 }
 
@@ -38,9 +31,6 @@ p {
     margin-top: 200px;
   }
 }
-
-
-
 .ml-20 {
   margin-left: 12rem;
 }

@@ -1,15 +1,17 @@
 body {
+  background: linear-gradient(to right, #F2C84B 0, #F2C84B 7%, #1f1f1f 7%, #1f1f1f 55%, #F2C84B 55%, #F2C84B 95%, #F2C84B 95%, #F2C84B 100%);
   background-image: black;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
 }
 :root {
-  --main-text: #8892b0;
-  --theme-color: black;
-  --highlights: #F2C84B;
-  --bold-text: #bec8e7;
-  --main-font: 'Montserrat, "Montserrat", "SF Pro Text"';
+  --white-text: #fff;
+  --theme-color: #F2C84B;
+  --theme-black:#1f1f1f;
+  --highlights: #7B92F9;
+  --header-font: 'Poller One', 'cursive;';
+  --para-font:  'Montserrat, "Montserrat", "SF Pro Text"';
 }
 
 .App {

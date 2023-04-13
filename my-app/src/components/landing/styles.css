@@ -1,38 +1,18 @@
-:root {
-  --main-text: #fff;
-  --theme-color: black;
-  --highlights: #50ccb4;
-  --bold-text: #fff;
-  --main-font: 'Calibre, "San Francisco", "SF Pro Text"';
-}
-
 .name {
-  color: #fff;
- font-family: 'Poller One', cursive;
+  color: var(--white-text);
+  font-family: var(--header-font);
   font-size: 5rem;
 }
 
-.cube{
+.cube {
   top: -8rem !important;
 }
-/* .name::after {
-  content: "";
-  background-color: #F23F60;
-  border-color: #F23F60;
-  border-style: solid;
-  height: 5px;
-  display: inline-flex;
-  position: absolute;
-  top: 32px;
-  width: 40rem;
-  margin-left: 2rem;
-} */
 
- .center-row {
+.center-row {
   margin-top: 10rem !important;
- }
+}
 
-.p-max-40-rem{
+.p-max-40-rem {
   max-width: 30rem;
 }
 
@@ -47,32 +27,24 @@
 
 .theme-btn {
   /* background-color: rgba(240, 248, 255, 0.701); */
-  background-color: #7B92F9;
+  background-color: var(--highlights);
   border: solid #7B92F9 14px;
   width: 150px;
   margin-top: 15px;
-  color: black;
+  color: var(--theme-black);
   text-decoration: none;
-  
+
 }
-
-
-/* .project-btn {
-  position: relative;
-  top: 6.2rem;
-  left: 12rem;
-} */
-
 
 .theme-btn:hover {
   background-color: #63F27D;
   border: solid #63F27D 14px;
   text-decoration: none;
-  color: black;
+  color: var(--theme-black);
 }
 
 .blue-hl {
-  color: #7B92F9;
+  color: var(--highlights);
 }
 
 @media screen and (max-width: 480px) {
@@ -84,12 +56,13 @@
     margin: 0
   }
 
-  .email-btn, .lottie {
+  .email-btn,
+  .lottie {
     display: none;
   }
 
   body {
-    background: black !important;
+    background: var(--theme-black) !important;
   }
 
   .project-btn {

@@ -45,7 +45,7 @@ class Work extends Component {
 
             <div className="row mt-5 m-0">
               <div class="col-md-6">
-                <div>
+                <div className="text-white">
                   <div class="timeline-content">
                     <span class="year">2017 - 2021</span>
                     <h3>Business Systems Analyst</h3>

@@ -8,8 +8,8 @@
 
 
 .theme-border {
-  border: #F2C84B .5rem solid;
-  background: black;
+  border: var(--theme-color) .5rem solid;
+  background: var(--theme-black);
   border-radius: 1rem;
   box-shadow: 14px 10px 45px black;
 }

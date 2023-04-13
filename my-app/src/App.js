@@ -9,26 +9,26 @@ import Footer from './components/Footer';
 import Skill from './components/skills'
 import Projects from './components/projects';
 import Blog from './components/blog'
-import {ThemeProvider} from "styled-components";
-import { GlobalStyles } from "./components/Theme/globalStyles";
-import { lightTheme, darkTheme } from "./components/Theme/theme"
-import Toggle from "./components/Theme/toggler"
+// import {ThemeProvider} from "styled-components";
+// import { GlobalStyles } from "./components/Theme/globalStyles";
+// import { lightTheme, darkTheme } from "./components/Theme/theme"
+// import Toggle from "./components/Theme/toggler"
 import './App.css';
 import { Fragment } from 'react';
-import  {useDarkMode} from "./components/Theme/useDarkMode"
+// import  {useDarkMode} from "./components/Theme/useDarkMode"
 
 function App() {
 
-  const [theme, themeToggler] = useDarkMode();
+  // const [theme, themeToggler] = useDarkMode();
 
-  const themeMode = theme === 'light' ? lightTheme : darkTheme;
+  // const themeMode = theme === 'light' ? lightTheme : darkTheme;
 
   return (
 
    <Fragment>
-        <ThemeProvider theme={themeMode}>
+        {/* <ThemeProvider theme={themeMode}> */}
       <>
-      <GlobalStyles/>
+      {/* <GlobalStyles/> */}
      
    {/* <Toggle className="float-right" theme={theme} toggleTheme={themeToggler} /> */}
    <NavBar/>
@@ -44,7 +44,7 @@ function App() {
    
    <Footer/> 
    </>
-    </ThemeProvider>
+    {/* </ThemeProvider> */}
    </Fragment>
       
     
