@@ -11,6 +11,7 @@ import Tooltip from "react-bootstrap/Tooltip";
 import $ from "jquery";
 import { MDBTooltip } from "mdb-react-ui-kit";
 import Fall from "../../images/fall.png"
+import Logo from "../sidebar/logo.png"
 
 class Sidebar extends Component {
   render() {

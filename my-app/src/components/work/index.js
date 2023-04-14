@@ -5,10 +5,19 @@ import LogixImg from "./images/logix-logo.png";
 import CapImg from "./images/Capco.jpg";
 import { FaArrowDown } from "react-icons/fa";
 import "../../utilities.css";
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 class Work extends Component {
   render() {
     return (
       <section className="workSec" id="workSec">
+         <AnimationOnScroll
+                animateIn="animate__swing"
+                animateOut="animate__bounceOutLeft"
+                duration={5}
+                initiallyVisible={true}
+                offset={250}
+              >
         <div class="container theme-border p-5">
           <h1 class="text-center  wrkName">
             Work <span className="blue-hl">Experience</span>
@@ -79,6 +88,8 @@ class Work extends Component {
 
           </div>
         </div>
+        
+    </AnimationOnScroll>
       </section>
     );
   }
