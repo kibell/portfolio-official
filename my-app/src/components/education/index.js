@@ -29,7 +29,6 @@ class Education extends Component {
                     University of Mary-Hardin Baylor
                   </h4>
                   <h5 className="text-white">Computer Information Systems</h5>
-                  <h6 className="text-white">August 2015</h6>
                 </div>
               </div>
             </div>
@@ -52,7 +51,6 @@ class Education extends Component {
                   University of Texas
                   </h4>
                   <h5 className="text-white">Web Development BootCamp</h5>
-                  <h6 className="text-white">March 2020</h6>
                 </div>
               </div>
             </div>

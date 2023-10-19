@@ -6,6 +6,7 @@ import orgSpace from "./images/organized spaces.gif";
 import corona from "./images/ctrack.gif";
 import letsme from "./images/letsme.gif";
 import giphy from "./images/giphy API.gif";
+import guide from "./images/Dev Guide.gif";
 import trivia from "./images/Trivia.gif";
 import reactApp from "./images/React App.gif";
 import { FaHtml5 } from "react-icons/fa";
@@ -54,14 +55,31 @@ class Projects extends Component {
     });
   };
 
+  changeGuide = () => {
+    this.setState({
+      title: "Nuture Marketing Development Guide",
+      description:
+        "Created a comprehensive Development Guide for the Dev team to utlize to help assist the team on the university branding standards and common code practices.",
+      viewCode: "https://github.com/snhu-nuture-project/official_nuture_guide",
+      viewSite: "https://snhu-nuture-project.github.io/official_nuture_guide/",
+      techStack: (
+        <Fragment>
+          {" "}
+          <FaReact />
+          <DiJavascript />
+          <FaCss3Alt />{" "}
+        </Fragment>
+      ),
+    });
+  };
+
   changeNetflix = () => {
     this.setState({
       title: "Netflix Clone",
       description:
         "Practicing my React skills by creating a Netflix clone, This site mimicks the style and design of the most popular streaming service, Sorry you can not stream movies here, You still will need to pay Netflix.",
       viewCode: "https://github.com/kibell/Netflix-Clone",
-      viewSite:
-        "Gather, document, and analyze client functional products and underwriting business requirements.Client-facing and consultative role offering solutions to enhance client implementations and transform client workflow and business processes. Facilitates internal communications by serving as the liaison between the services organization and product development, product management, and technical teams.",
+      viewSite: "https://warm-lowlands-22039.herokuapp.com/",
       techStack: (
         <Fragment>
           {" "}
@@ -84,7 +102,7 @@ class Projects extends Component {
         <Fragment>
           {" "}
           <FaReact />
-          <BsFiletypeSql/>
+          <BsFiletypeSql />
           <DiJavascript />
           <FaCss3Alt />
           <FaHtml5 />{" "}
@@ -192,7 +210,9 @@ class Projects extends Component {
           <h1 class="proj-header pt-5 text-center">Projects</h1>
           <hr></hr>
           <h2 className="project-title text-black">{this.state.title}</h2>
-          <p className="project-description text-black m-0">{this.state.description}</p>
+          <p className="project-description text-black m-0">
+            {this.state.description}
+          </p>
           <p className="text-black">
             {" "}
             <strong>Tech Stack: </strong>
@@ -221,6 +241,16 @@ class Projects extends Component {
               </div>
               <div class="circle-bell">
                 <img src={bellsprout} className="width-250px" />
+              </div>
+            </div>
+            <div class="card-project" onMouseOver={this.changeGuide}>
+              <h3 class="title-card">Development Guide</h3>
+              <div class="bar">
+                <div class="emptybar"></div>
+                <div class="filledbar"></div>
+              </div>
+              <div class="circle-bell">
+                <img src={guide} className="width-250px" />
               </div>
             </div>
             <div class="card-project" onMouseOver={this.changeNetflix}>
