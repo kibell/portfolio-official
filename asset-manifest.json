@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio-official/static/css/main.1079e8e0.css",
-    "main.js": "/portfolio-official/static/js/main.99c4849e.js",
+    "main.css": "/portfolio-official/static/css/main.d113f98e.css",
+    "main.js": "/portfolio-official/static/js/main.83873ecb.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio-official/static/js/787.28cb0dcd.chunk.js",
     "static/media/Trivia.gif": "/portfolio-official/static/media/Trivia.521fa8878dd19ce90a86.gif",
+    "static/media/Dev Guide.gif": "/portfolio-official/static/media/Dev Guide.ba66a72dc6a4b3f7c88f.gif",
     "static/media/nc.gif": "/portfolio-official/static/media/nc.5165bf202636aeb27e50.gif",
     "static/media/Bell.gif": "/portfolio-official/static/media/Bell.c605ed05b306db0e205e.gif",
     "static/media/React App.gif": "/portfolio-official/static/media/React App.6ff42c65f064d996cbc6.gif",
@@ -24,12 +25,12 @@
     "static/media/logix-logo.png": "/portfolio-official/static/media/logix-logo.588e9998457711a8b1a9.png",
     "static/media/umhb.jpg": "/portfolio-official/static/media/umhb.0b6c182a00988f55900a.jpg",
     "index.html": "/portfolio-official/index.html",
-    "main.1079e8e0.css.map": "/portfolio-official/static/css/main.1079e8e0.css.map",
-    "main.99c4849e.js.map": "/portfolio-official/static/js/main.99c4849e.js.map",
+    "main.d113f98e.css.map": "/portfolio-official/static/css/main.d113f98e.css.map",
+    "main.83873ecb.js.map": "/portfolio-official/static/js/main.83873ecb.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio-official/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1079e8e0.css",
-    "static/js/main.99c4849e.js"
+    "static/css/main.d113f98e.css",
+    "static/js/main.83873ecb.js"
   ]
 }
