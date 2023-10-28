@@ -6,7 +6,9 @@
   font-size: 5rem;
 }
 
-
+.divider {
+  border: 5px solid grey;
+}
 .theme-border {
   border: var(--theme-color) .5rem solid;
   background: var(--theme-black);
@@ -17,6 +19,20 @@
 .workSec li {
   color: #fff;
   margin-bottom: .5rem;
+}
+
+.active-border {
+  border: 2px solid var(--highlights);
+  box-shadow: 0 0 15px var(--theme-color);
+}
+
+.hover-work:hover {
+  border: 4px solid var(--highlights);
+  cursor: pointer;
+}
+
+.b-rad-4 {
+  border-radius: 4%;
 }
 
 @media screen and (max-width: 480px) {
