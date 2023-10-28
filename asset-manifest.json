@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-official/static/css/main.d113f98e.css",
-    "main.js": "/portfolio-official/static/js/main.83873ecb.js",
+    "main.css": "/portfolio-official/static/css/main.4ae155ad.css",
+    "main.js": "/portfolio-official/static/js/main.cb4262d2.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio-official/static/js/787.28cb0dcd.chunk.js",
     "static/media/Trivia.gif": "/portfolio-official/static/media/Trivia.521fa8878dd19ce90a86.gif",
     "static/media/Dev Guide.gif": "/portfolio-official/static/media/Dev Guide.ba66a72dc6a4b3f7c88f.gif",
@@ -9,8 +9,10 @@
     "static/media/Bell.gif": "/portfolio-official/static/media/Bell.c605ed05b306db0e205e.gif",
     "static/media/React App.gif": "/portfolio-official/static/media/React App.6ff42c65f064d996cbc6.gif",
     "static/media/organized spaces.gif": "/portfolio-official/static/media/organized spaces.759ebe7cfae1acc7e797.gif",
+    "static/media/sfs.gif": "/portfolio-official/static/media/sfs.2f13a4906302448add37.gif",
     "static/media/ctrack.gif": "/portfolio-official/static/media/ctrack.27e5d34205cf50cc2614.gif",
-    "static/media/KBell.pdf": "/portfolio-official/static/media/KBell.d7b4b690a476dff8a326.pdf",
+    "static/media/recom.gif": "/portfolio-official/static/media/recom.1522aa21d9bb3b541f06.gif",
+    "static/media/comp.gif": "/portfolio-official/static/media/comp.64d342e47a8608966f97.gif",
     "static/media/giphy API.gif": "/portfolio-official/static/media/giphy API.18d2017b65d51307ecbf.gif",
     "static/media/letsme.gif": "/portfolio-official/static/media/letsme.40339d63789867b464c1.gif",
     "static/media/fall.png": "/portfolio-official/static/media/fall.93e9741f9695fa0caf49.png",
@@ -18,19 +20,21 @@
     "static/media/emp.gif": "/portfolio-official/static/media/emp.403bcf3d68c48b4a8c21.gif",
     "static/media/champ.png": "/portfolio-official/static/media/champ.1f85ea36c0a1a71119ac.png",
     "static/media/hey.png": "/portfolio-official/static/media/hey.090c1b327b67211195a5.png",
+    "static/media/KBell.pdf": "/portfolio-official/static/media/KBell.ee1ce2c9beb47ce9577d.pdf",
     "static/media/bootcamp.png": "/portfolio-official/static/media/bootcamp.3242c874d0672e0291c6.png",
     "static/media/logogif.gif": "/portfolio-official/static/media/logogif.081ee9593f1154e03955.gif",
     "static/media/Capco.jpg": "/portfolio-official/static/media/Capco.148b6180ec7ae2c41bd9.jpg",
     "static/media/logo.png": "/portfolio-official/static/media/logo.efe19dd061befb7b14e0.png",
+    "static/media/blank.png": "/portfolio-official/static/media/blank.eba964e1615f0d90ec59.png",
     "static/media/logix-logo.png": "/portfolio-official/static/media/logix-logo.588e9998457711a8b1a9.png",
     "static/media/umhb.jpg": "/portfolio-official/static/media/umhb.0b6c182a00988f55900a.jpg",
     "index.html": "/portfolio-official/index.html",
-    "main.d113f98e.css.map": "/portfolio-official/static/css/main.d113f98e.css.map",
-    "main.83873ecb.js.map": "/portfolio-official/static/js/main.83873ecb.js.map",
+    "main.4ae155ad.css.map": "/portfolio-official/static/css/main.4ae155ad.css.map",
+    "main.cb4262d2.js.map": "/portfolio-official/static/js/main.cb4262d2.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio-official/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d113f98e.css",
-    "static/js/main.83873ecb.js"
+    "static/css/main.4ae155ad.css",
+    "static/js/main.cb4262d2.js"
   ]
 }
