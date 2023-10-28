@@ -74,11 +74,11 @@ class Work extends Component {
       workprojImg2: recom,
       tooltip: "",
       description1:
-        "Creates and maintain responsive and user-friendly websites that adhere to the university's branding and design guidelines",
+        "Worked as a member of an agile team, and helped push new features from design to production in less than four weeks, by completing the development and testing of a new feature that provided a key benefit to the end user.",
       description2:
-        "Develop web pages and applications that function seamlessly across various web browsers and devices, including desktops, tablets, and mobile phones",
+        "Collaborated with back-end developers to implement new pages for the company platform using MVC, which improved the user experience and increased conversion.",
       description3:
-        "Design intuitive and engaging user interfaces that enhance the overall user experience for prospective students, faculty, and other site visitors. Conduct user research and usability testing to gather feedback and insights for continuous improvement. Ensure accessibility and inclusivity compliance to reach a diverse audience",
+        "Improved codebase readability by refactoring components using functional programming principles, which improved code performance.",
       vsite: "",
       vcode: "",
     });
@@ -87,16 +87,13 @@ class Work extends Component {
   empBSAWork = () => {
     this.setState({
       workProject1: "",
-      workProject1Des:
-        "",
+      workProject1Des: "",
       workprojImg: blank,
       techStack: "",
       workProject2: "",
-      workProject2Des:
-        "",
+      workProject2Des: "",
       workprojImg2: blank,
-      tooltip:
-        "",
+      tooltip: "",
       description1:
         "Oversaw the premium reporting process after noticing the start-to-finish process identified inefficiencies by creating automated queries and increasing time savings by 40% 122 hours a month)",
       description2:
