@@ -22,12 +22,20 @@
 }
 
 .active-border {
-  border: 2px solid var(--highlights);
+  border: 3px solid var(--highlights) !important;
   box-shadow: 0 0 15px var(--theme-color);
 }
 
+.hover-work {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid aliceblue;
+}
+
 .hover-work:hover {
-  border: 4px solid var(--highlights);
+  border: 2px solid var(--highlights);
   cursor: pointer;
 }
 
@@ -35,6 +43,10 @@
   border-radius: 4%;
 }
 
+.emp-img {
+  align-items: center;
+  width: 200px;
+}
 @media screen and (max-width: 480px) {
   .wrkName {
     font-size: 2rem;

@@ -140,7 +140,7 @@ class Work extends Component {
                 this.empDevWork();
               }}
             >
-              <img src={Empimage} className="w100" />
+              <img src={Empimage} className="emp-img" />
               <p className="text-center">
                 Front-End Developer <br />
                 2021-2023
@@ -156,7 +156,7 @@ class Work extends Component {
                 this.empBSAWork();
               }}
             >
-              <img src={Empimage} className="w100" />
+              <img src={Empimage} className="emp-img" />
               <p className="text-center">
                 Business Systems Analyst <br />
                 2017-2021
