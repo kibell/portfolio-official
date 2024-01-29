@@ -72,3 +72,15 @@ html {
     max-width: 1140px !important;
 }
 }
+
+@media (max-width: 1320px) {
+  body {
+    background: linear-gradient(to right, #1f1f1f 55%, #1f1f1f 55%, #F2C84B 55%, #F2C84B 95%, #F2C84B 95%, #F2C84B 100%);
+  }
+  }
+
+  @media (max-width: 960px) {
+    body {
+      background: linear-gradient(to right, #1f1f1f 55%, #1f1f1f 100%);
+    }
+    }
