@@ -56,23 +56,25 @@ class Landing extends Component {
                   animateIn="animate__bounceInLeft"
                   animateOut="animate__bounceOutRight"
                 >
-                  <p className=" p-max-40-rem text-white mb-5 ">
+                  <p className=" text-white mb-5 ">
                     Welcome to my web portfolio! I'm a highly skilled front-end
                     developer with a strong foundation in full-stack
                     development. I hold certifications in full-stack
                     development, and pursuing my master's degree in software
                     application development.
                   </p>
-                  <a href="#projSec" className="theme-btn project-btn">
-                    <strong>View Projects</strong>{" "}
-                  </a>{" "}
-                  <a
-                    href="mailto:kitrickd.bell@gmail.com? subject= subject text"
-                    className="theme-btn ml-2"
-                    target="_blank"
-                  >
-                    <strong>Email me</strong>{" "}
-                  </a>{" "}
+                  <div className="d-flex justify-content-end">
+                    <a href="#projSec" className="theme-btn project-btn">
+                      <strong>View Projects</strong>{" "}
+                    </a>{" "}
+                    <a
+                      href="mailto:kitrickd.bell@gmail.com? subject= subject text"
+                      className="theme-btn ml-4"
+                      target="_blank"
+                    >
+                      <strong>Email me</strong>{" "}
+                    </a>{" "}
+                  </div>
                 </AnimationOnScroll>{" "}
               </div>
             </div>

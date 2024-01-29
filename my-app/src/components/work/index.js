@@ -116,7 +116,7 @@ class Work extends Component {
 
           <div className="row">
             <div
-              className={`col-md-4 align-center p-4 hover-work d-flex flex-column justify-content-between ${
+              className={`col-md-4 align-center p-4 hover-work d-flex flex-column justify-content-center ${
                 this.state.activeDiv === "snhu" ? "active-border" : ""
               }`}
               onClick={() => {
@@ -127,7 +127,7 @@ class Work extends Component {
               <img src={SNHU} />
               <p className="text-center">
                 Front-End Developer <br />
-                2021-2023
+                2023-Present
               </p>
             </div>
 
@@ -143,7 +143,7 @@ class Work extends Component {
               <img src={Empimage} className="w100" />
               <p className="text-center">
                 Front-End Developer <br />
-                2023-Present
+                2021-2023
               </p>
             </div>
 

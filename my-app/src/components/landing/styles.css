@@ -29,6 +29,8 @@
   /* background-color: rgba(240, 248, 255, 0.701); */
   background-color: var(--highlights);
   border: solid #7B92F9 14px;
+  text-align: center;
+  font-weight: 700;
   width: 150px;
   margin-top: 15px;
   color: var(--theme-black);
@@ -37,10 +39,11 @@
 }
 
 .theme-btn:hover {
-  background-color: #63F27D;
-  border: solid #63F27D 14px;
+  background-color: var(--highlights);
+  border: solid #7B92F9 14px;
   text-decoration: none;
   color: var(--theme-black);
+  box-shadow: -8px 5px aliceblue;
 }
 
 .blue-hl {
