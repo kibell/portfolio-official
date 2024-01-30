@@ -5,6 +5,7 @@
   background:  gainsboro;
   position: relative;
   z-index: 45;
+  border: 10px solid #1f1f1f;
 }
 
 .yb {
