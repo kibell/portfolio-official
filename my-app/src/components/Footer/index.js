@@ -22,7 +22,7 @@ class Footer extends Component {
           </div>
           <img className="kblogo" src={KBimg} alt="kblogo" /> <br />
           <a
-            className="btn btn-primary"
+            className="theme-btn"
             href="mailto:kitrickd.bell@gmail.com? subject= subject text"
             title="Email"
             target="_blank"

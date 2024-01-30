@@ -19,6 +19,19 @@ import { SiAdobexd } from "react-icons/si";
 import { FiFigma } from "react-icons/fi";
 import { FaPython } from "react-icons/fa";
 import { BsWordpress } from "react-icons/bs";
+import { GiAbstract020 } from "react-icons/gi";
+import { SiNetflix } from "react-icons/si";
+import { RiGuideFill } from "react-icons/ri";
+import { MdWorkspaces } from "react-icons/md";
+import { MdCoronavirus } from "react-icons/md";
+import { GiExplosiveMeeting } from "react-icons/gi";
+import { GiClick } from "react-icons/gi";
+import { MdOutlineQuiz } from "react-icons/md";
+import { GiFallingBlob } from "react-icons/gi";
+import { FaArtstation } from "react-icons/fa";
+import { MdAppRegistration } from "react-icons/md";
+import { FaFilePdf } from "react-icons/fa";
+import { CiVideoOn } from "react-icons/ci";
 
 import $ from "jquery";
 
@@ -28,13 +41,13 @@ import "../../utilities.css";
 class Projects extends Component {
   state = {
     title: "Project Library",
-    description:
-      "Hover the cards for more details and to view the code or the site.",
+    description: "Click the project in the side bar to learn more.",
     viewCode:
       "Spearheads system issues by utilizing agile methodology to complete projects and meeting specific deadlines. I was able to improve our Premium Reporting Process and saved the company over 16 hours of time allocated to this task by developing complex queries using SQL Server that reduced processing time to 4 hours.",
     viewSite:
       "Gather, document, and analyze client functional products and underwriting business requirements.Client-facing and consultative role offering solutions to enhance client implementations and transform client workflow and business processes. Facilitates internal communications by serving as the liaison between the services organization and product development, product management, and technical teams.",
     techStack: "",
+    imgSrc: bellsprout,
   };
 
   changeBellSprout = () => {
@@ -52,6 +65,7 @@ class Projects extends Component {
           <FaCss3Alt />{" "}
         </Fragment>
       ),
+      imgSrc: bellsprout,
     });
   };
 
@@ -70,6 +84,7 @@ class Projects extends Component {
           <FaCss3Alt />{" "}
         </Fragment>
       ),
+      imgSrc: guide,
     });
   };
 
@@ -88,6 +103,7 @@ class Projects extends Component {
           <FaCss3Alt />{" "}
         </Fragment>
       ),
+      imgSrc: netflix,
     });
   };
 
@@ -108,6 +124,7 @@ class Projects extends Component {
           <FaHtml5 />{" "}
         </Fragment>
       ),
+      imgSrc: orgSpace,
     });
   };
 
@@ -127,6 +144,7 @@ class Projects extends Component {
           <FaHtml5 />{" "}
         </Fragment>
       ),
+      imgSrc: corona,
     });
   };
 
@@ -145,6 +163,7 @@ class Projects extends Component {
           <FaHtml5 />{" "}
         </Fragment>
       ),
+      imgSrc: letsme,
     });
   };
 
@@ -164,6 +183,7 @@ class Projects extends Component {
           <FaHtml5 />{" "}
         </Fragment>
       ),
+      imgSrc: reactApp,
     });
   };
 
@@ -182,6 +202,7 @@ class Projects extends Component {
           <FaHtml5 />{" "}
         </Fragment>
       ),
+      imgSrc: trivia,
     });
   };
 
@@ -201,131 +222,130 @@ class Projects extends Component {
           <FaHtml5 />{" "}
         </Fragment>
       ),
+      imgSrc: giphy,
     });
   };
   render() {
     return (
-      <section class="projSec" id="projSec">
-        <div className="container">
-          <h1 class="proj-header pt-5 text-center">Projects</h1>
-          <hr></hr>
-          <h2 className="project-title text-black">{this.state.title}</h2>
-          <p className="project-description text-black m-0">
-            {this.state.description}
-          </p>
-          <p className="text-black">
-            {" "}
-            <strong>Tech Stack: </strong>
-            <span className="fs-45">{this.state.techStack}</span>
-          </p>
-          <a
-            className="btn text-black text-center yb"
-            href={this.state.viewCode}
-            target="_blank"
-          >
-            View Code
-          </a>
-          <a
-            className="btn btn-primary ml-3 text-center"
-            href={this.state.viewSite}
-            target="_blank"
-          >
-            View Site
-          </a>
-          <div class="container-card mt-5">
-            <div class="card-project" onMouseOver={this.changeBellSprout}>
-              <h3 class="title-card">BellSprout Designs</h3>
-              <div class="bar">
-                <div class="emptybar"></div>
-                <div class="filledbar"></div>
-              </div>
-              <div class="circle-bell">
-                <img src={bellsprout} className="width-250px" />
-              </div>
-            </div>
-            <div class="card-project" onMouseOver={this.changeGuide}>
-              <h3 class="title-card">Development Guide</h3>
-              <div class="bar">
-                <div class="emptybar"></div>
-                <div class="filledbar"></div>
-              </div>
-              <div class="circle-bell">
-                <img src={guide} className="width-250px" />
-              </div>
-            </div>
-            <div class="card-project" onMouseOver={this.changeNetflix}>
-              <h3 class="title-card">Netflix Clone</h3>
-              <div class="bar">
-                <div class="emptybar"></div>
-                <div class="filledbar"></div>
-              </div>
-              <div class="circle-bell">
-                <img src={netflix} className="width-250px" />
-              </div>
-            </div>
-            <div class="card-project" onMouseOver={this.changeOrg}>
-              <h3 class="title-card">Org Spaces</h3>
-              <div class="bar">
-                <div class="emptybar"></div>
-                <div class="filledbar"></div>
-              </div>
-              <div class="circle-bell">
-                <img src={orgSpace} className="width-250px" />
-              </div>
-            </div>
-            <div class="card-project" onMouseOver={this.changeCorona}>
-              <h3 class="title-card">Corona Tracker</h3>
-              <div class="bar">
-                <div class="emptybar"></div>
-                <div class="filledbar"></div>
-              </div>
-              <div class="circle-bell">
-                <img src={corona} className="width-250px" />
-              </div>
-            </div>
-          </div>
+      <section class="projSec p-5" id="projSec">
+        <div className="row">
+          {/* <div className="col-md-12">
+            <h1 class="proj-header pt-5 text-center">Projects</h1>
+          </div> */}
 
-          <div class="container-card mt-5">
-            <div class="card-project" onMouseOver={this.changeMeetme}>
-              <h3 class="title-card">Meet ME</h3>
-              <div class="bar">
-                <div class="emptybar"></div>
-                <div class="filledbar"></div>
-              </div>
-              <div class="circle-bell">
-                <img src={letsme} className="width-250px" />
-              </div>
-            </div>
-            <div class="card-project" onMouseOver={this.changeClicky}>
-              <h3 class="title-card">Clicky Game</h3>
-              <div class="bar">
-                <div class="emptybar"></div>
-                <div class="filledbar"></div>
-              </div>
-              <div class="circle-bell">
-                <img src={reactApp} className="width-250px" />
-              </div>
-            </div>
-            <div class="card-project" onMouseOver={this.changeTrivia}>
-              <h3 class="title-card">Trivia Game</h3>
-              <div class="bar">
-                <div class="emptybar"></div>
-                <div class="filledbar"></div>
-              </div>
-              <div class="circle-bell">
-                <img src={trivia} className="width-250px" />
-              </div>
-            </div>
-            <div class="card-project" onMouseOver={this.changeGiphy}>
-              <h3 class="title-card">Giphy API</h3>
-              <div class="bar">
-                <div class="emptybar"></div>
-                <div class="filledbar"></div>
-              </div>
-              <div class="circle-bell">
-                <img src={giphy} className="width-250px" />
-              </div>
-            </div>
+          <div className="col-md-2">
+            <h3>Projects</h3>
+            <ul className="list-item">
+              <li onClick={this.changeBellSprout}>
+                {" "}
+                <GiAbstract020 className="mr-2" />
+                BellSprout Designs{" "}
+              </li>
+              <li onClick={this.changeNetflix}>
+                {" "}
+                <SiNetflix className="mr-2" />
+                Netflix Clone{" "}
+              </li>
+              <li onClick={this.changeGuide}>
+                {" "}
+                <RiGuideFill className="mr-2" />
+                Developer Guide{" "}
+              </li>
+              <li onClick={this.changeOrg}>
+                {" "}
+                <CiVideoOn  className="mr-2" />
+                Student Video Library{" "}
+              </li>
+              <li onClick={this.changeOrg}>
+                {" "}
+                <MdWorkspaces className="mr-2" />
+                Org Spaces{" "}
+              </li>
+              <li onClick={this.changeMeetme}>
+                {" "}
+                <GiExplosiveMeeting className="mr-2" />
+                Meet Me{" "}
+              </li>
+              <li onClick={this.changeClicky}>
+                {" "}
+                <GiClick className="mr-2" />
+                Clicky Game{" "}
+              </li>
+              <li onClick={this.changeCorona}>
+                {" "}
+                <MdCoronavirus className="mr-2" />
+                Corona Tracker{" "}
+              </li>
+              <li onClick={this.changeTrivia}>
+                {" "}
+                <MdOutlineQuiz className="mr-2" />
+                Comic Trivia{" "}
+              </li>
+              <li onClick={this.changeGiphy}>
+                {" "}
+                <GiFallingBlob className="mr-2" />
+                Giphy API{" "}
+              </li>
+              <li>
+                {" "}
+                <FaArtstation className="mr-2" />
+                AI Course Work{" "}
+              </li>
+              <li>
+                {" "}
+                <MdAppRegistration className="mr-2" />
+                Pre Orientation Page{" "}
+              </li>
+              <li>
+                {" "}
+                <MdAppRegistration className="mr-2" />
+                Analytics Dashboard{" "}
+              </li>
+              <li>
+                {" "}
+                <MdAppRegistration className="mr-2" />
+                Interactive Color Theme Tool{" "}
+              </li>
+              <li>
+                {" "}
+                <FaFilePdf className="mr-2" />
+                Communication Training Plan{" "}
+              </li>
+              <li>
+                {" "}
+                <FaFilePdf className="mr-2" />
+                Tech Evaluation of an OS{" "}
+              </li>
+            </ul>
+          </div>
+          <div className="col-md-1"></div>
+          <div className="col-md-7 text-center">
+            <hr></hr>
+            <h2 className="project-title text-black">{this.state.title}</h2>
+            <p className="project-description text-black ">
+              {this.state.description}
+            </p>
+            <img src={this.state.imgSrc} alt="" className="mb-2 imagery" />
+            <br></br>
+            <p className="text-black">
+              {" "}
+              <strong>Tech Stack: </strong>
+              <span className="fs-45">{this.state.techStack}</span>
+            </p>
+            <a
+              className="theme-btn text-black text-center "
+              href={this.state.viewCode}
+              target="_blank"
+            >
+              View Code
+            </a>
+            <a
+              className="theme-btn ml-3 text-center"
+              href={this.state.viewSite}
+              target="_blank"
+            >
+              View Site
+            </a>
           </div>
         </div>
       </section>
