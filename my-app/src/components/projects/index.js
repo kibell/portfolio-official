@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from "react";
-
+import recom from "../work/images/recom.gif";
+import comp from "../work/images/comp.gif";
 import bellsprout from "./images/Bell.gif";
 import netflix from "./images/nc.gif";
 import orgSpace from "./images/organized spaces.gif";
@@ -8,16 +9,23 @@ import letsme from "./images/letsme.gif";
 import giphy from "./images/giphy API.gif";
 import guide from "./images/Dev Guide.gif";
 import trivia from "./images/Trivia.gif";
+import pre from "./images/pre.gif";
+import { FaLess } from "react-icons/fa";
+import AI from "./images/AI Coursework.gif";
 import reactApp from "./images/React App.gif";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
+import { SiDotnet } from "react-icons/si";
+
 import { FaReact } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
 import { BsFiletypeSql } from "react-icons/bs";
 import { SiAdobexd } from "react-icons/si";
+import { FaSass } from "react-icons/fa";
 import { FiFigma } from "react-icons/fi";
 import { FaPython } from "react-icons/fa";
+import { FaSalesforce } from "react-icons/fa";
 import { BsWordpress } from "react-icons/bs";
 import { GiAbstract020 } from "react-icons/gi";
 import { SiNetflix } from "react-icons/si";
@@ -66,6 +74,106 @@ class Projects extends Component {
         </Fragment>
       ),
       imgSrc: bellsprout,
+    });
+  };
+
+  changeAI = () => {
+    this.setState({
+      title: "AI Course work Page",
+      description:
+        "We needed to design and Develop an AI course work page to inform prospect student of the upcoming courses that are being offered at SNHU. We met all deliverables and launch the page and notified students on time ",
+      viewCode: "https://github.com/snhu-nuture-project/ai-course-page",
+      viewSite: "https://cloud.dream.snhu.edu/AICoursework",
+      techStack: (
+        <Fragment>
+          {" "}
+          <FaHtml5 />
+          <DiJavascript />
+          <FaCss3Alt /> <FaSass />
+          <FaSalesforce />
+        </Fragment>
+      ),
+      imgSrc: AI,
+    });
+  };
+
+  changePre = () => {
+    this.setState({
+      title: "Pre-Orientation Page",
+      description:
+        "This online platform is your personal guide to a seamless transition into campus life. Crafted with precision and user-friendly design, this pre-orientation page ensures that you step into university life with confidence and excitement. ",
+      viewCode: "https://github.com/snhu-nuture-project/pre-orientation",
+      viewSite: "https://cloud.dream.snhu.edu/pre-orientation",
+      techStack: (
+        <Fragment>
+          {" "}
+          <FaHtml5 />
+          <DiJavascript />
+          <FaCss3Alt /> <FaSass />
+          <FaSalesforce />
+        </Fragment>
+      ),
+      imgSrc: pre,
+    });
+  };
+
+  changeDash = () => {
+    this.setState({
+      title: "Analytics Dashboard",
+      description:
+        "Designed and Developed an analytics page for the clients to easily view important statistics about their employees election details. Previously Clients had to rely on manual reports from the BSA's this tool eliminated the need for that process. (Site and code is not available) ",
+      viewCode: "",
+      viewSite: "",
+      techStack: (
+        <Fragment>
+          {" "}
+          <FaHtml5 />
+          <DiJavascript />
+          <FaCss3Alt /> <FaLess />
+          <SiDotnet />
+        </Fragment>
+      ),
+      imgSrc: recom,
+    });
+  };
+
+  changeTheme = () => {
+    this.setState({
+      title: "Interactive Color theme Tool",
+      description:
+        "Developed an interactive tools for clients and internal admin. This tool made it easier to change themes on the benefit election page using our internal admin applications. And offer options that would be most compliant to the WGAC Accesibilty recommendations (Site and code is not available) ",
+      viewCode: "",
+      viewSite: "",
+      techStack: (
+        <Fragment>
+          {" "}
+          <FaHtml5 />
+          <DiJavascript />
+          <FaCss3Alt /> <FaLess />
+          <SiDotnet />
+        </Fragment>
+      ),
+      imgSrc: comp,
+    });
+  };
+
+  changeVid = () => {
+    this.setState({
+      title: "Student Video Library",
+      description:
+        "University wanted a more in house approach verses using Youtube to provide students with helpful resouces. Developed Video library to host and stream videos for students.  ",
+      viewCode: "",
+      viewSite: "https://welcometosnhu.hubs.vidyard.com/",
+      techStack: (
+        <Fragment>
+          {" "}
+          <FaHtml5 />
+          <DiJavascript />
+          <FaCss3Alt /> <FaLess />
+          <SiDotnet />
+        </Fragment>
+      ),
+      imgSrc: comp,
     });
   };
 
@@ -251,10 +359,20 @@ class Projects extends Component {
                 <RiGuideFill className="mr-2" />
                 Developer Guide{" "}
               </li>
-              <li onClick={this.changeOrg}>
+              <li onClick={this.changeTheme}>
                 {" "}
-                <CiVideoOn  className="mr-2" />
+                <MdAppRegistration className="mr-2" />
+                Interactive Color Theme Tool{" "}
+              </li>
+              <li onClick={this.changeVid}>
+                {" "}
+                <CiVideoOn className="mr-2" />
                 Student Video Library{" "}
+              </li>
+              <li onClick={this.changeDash}>
+                {" "}
+                <MdAppRegistration className="mr-2" />
+                Analytics Dashboard{" "}
               </li>
               <li onClick={this.changeOrg}>
                 {" "}
@@ -286,26 +404,17 @@ class Projects extends Component {
                 <GiFallingBlob className="mr-2" />
                 Giphy API{" "}
               </li>
-              <li>
+              <li onClick={this.changeAI}>
                 {" "}
                 <FaArtstation className="mr-2" />
                 AI Course Work{" "}
               </li>
-              <li>
+              <li onClick={this.changePre}>
                 {" "}
                 <MdAppRegistration className="mr-2" />
                 Pre Orientation Page{" "}
               </li>
-              <li>
-                {" "}
-                <MdAppRegistration className="mr-2" />
-                Analytics Dashboard{" "}
-              </li>
-              <li>
-                {" "}
-                <MdAppRegistration className="mr-2" />
-                Interactive Color Theme Tool{" "}
-              </li>
+
               <li>
                 {" "}
                 <FaFilePdf className="mr-2" />
